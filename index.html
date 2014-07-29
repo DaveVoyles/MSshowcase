@@ -21,6 +21,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script type="text/javascript" src="js/Chart.js"></script>
 <script type="text/javascript" src="js/jquery.easing.js"></script>
 <script type="text/javascript" src="js/jquery.ulslide.js"></script>
+<script type="text/javascript" src="js/application.js"></script>
 
  <!----Calender -------->
 <link rel="stylesheet" href="css/clndr.css" type="text/css" />
@@ -56,40 +57,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
         <!------------ LEFT COLUMN  ----------------->
         <div class="column_left">
-
-            <!------------- APP --------------->
-            <div class="menu_box">
-                <h3>My Cool Kinect App</h3>
-                <div class="video_palyer">
-                    <iframe src="//www.youtube.com/embed/q10JrKlh2Ro" width="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-                </div>
+            <div id="add_widget_left_column">
+                <!-- Widget gets injected here -->
             </div>
-            <div class="tweets">
-                <h3><i> </i> Synopsis</h3>
-                <div class="synopsis_list">
-                    <ul>
-                        <li>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-                            <span>Developer Name</span>
-                            <span><a href="www.davidvoyles.wordpress.com">Website URL</a></span>
-                        </li>
-                        <li>
-                            <div class="keywords_list">
-                                <ul>
-                                    <li><a href="#" class="red">  #Kinect</a></li>
-                                    <li><a href="#" class="purple">  #Win8</a></li>
-                                    <li><a href="#" class="yellow">  #C++</a></li>
-                                    <div class="clear"></div>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
         </div>
+        <!------------ /LEFT COLUMN  ----------------->
 
         <div class="column_middle">
             <!------------- APP --------------->
@@ -145,6 +117,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </span>
                         <span>
                             <i><img src="images/location.png" alt="" /></i><input type="text" value="Enter Tags: #Kinect, #C++, Win8" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '#Kinect, #C++, Win8';}">
+                        </span>
+                        <span>
+                            <i><img src="images/location.png" alt="" /></i><input type="text" value="Description" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Description';}">
                         </span>
                         <input type="submit" class="my-button" value="Submit">
                     </form>
