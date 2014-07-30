@@ -172,13 +172,14 @@ fieldset#body {
 	float:left;
 	width:31.3%;
 }
-.column_middle{
-	margin:0 3%;
+.column_middle {
+    margin: 0 3%;
 }
+
 /******** Colunm Left *************/
 .menu_box h3 {
 	color: #FFF;
-	font-size: 1.2em;
+	font-size: 1.6em;
 	text-transform: uppercase;
 	padding:20px 0;
 	text-align: center;
@@ -610,6 +611,7 @@ fieldset#body {
 /*** Weather *******/
 .weather,.tweets{
 	margin-top:30px;
+    padding-bottom: 5em;
 }
 .weather h3,.tweets h3{
 	color: #FFF;
